@@ -16,7 +16,7 @@ class Post(models.Model):
     date_created = models.DateTimeField(auto_now_add=True)
     #auto now add will add a date and time once the user clicks save
     slug = models.SlugField(max_length=100, unique=True)
-    # this is to make sure that each article has a unique /name
+    # this is to make sure that each post has a unique url /name
     author = models.ForeignKey(to=User, on_delete=models.CASCADE)
     # this sets the many to one relationship. and cascade will allow once a user is delete that their posts are deleted as well. 
     
