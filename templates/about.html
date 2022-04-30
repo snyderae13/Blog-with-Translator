@@ -11,8 +11,31 @@
     <title>About Us</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url 'home' %}">Style-Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about_view' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'admin:index' %}">Author Log in</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="card">
+        <div class="card m-3">
             <div class="card-body">
                 <h1 class="card-title">About Us</h1>
                 <p class="card-text">This blog is dedicated to all things style and fashion related. With a high focus on smaller, heritage insipired brands we try to bring the best information and insights into the world of high-quality clothing. Here at Style Blog, we don't merely see this as some sort of hobby or passing trend that comes as quickly as it goes. What we are trying to do here is cultivate a clothing "worldview": things that we buy and consume should be of the highest quality possible in order to reduce and delegitmize the concept of "fast fashion" and the culture of "one-time use" that is currenly plaguing not only the developed but also the developing world. </p>
