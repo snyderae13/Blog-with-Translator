@@ -22,7 +22,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
-    path('about/', include('blog.urls')),
+    
 ]
 
 # I ran into an early problem with using curly brackets over square for my url patterns in this file and my blogs urls file. It should always be set to square brackets otherwise the /admin path will not work
