@@ -14,8 +14,8 @@ class BlogView(generic.DetailView):
 # this is to make sure that when the user goes to '', or the homepage that our views call on the index html template that we built, and we use a template view because we are just rendering a given template
 # https://www.geeksforgeeks.org/templateview-class-based-generic-view-django/
 
-#class HomeView(generic.TemplateView):
-   #template_name = 'index.html'
+class AboutView(generic.TemplateView):
+   template_name = 'about.html'
 
 # this is to create a class for a view for the Posts that I want to display as a list on the homepage.
 # I found that ListView is the best option for this beacuase it is a page representing a list of objects. 
