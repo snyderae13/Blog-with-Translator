@@ -1,4 +1,8 @@
 # Blog-with-Translator
+
+Link to the deployment : https://dry-island-83570.herokuapp.com/
+
+
 Inspiration
 
 The inspiration for this project came from my one of my other passions : language learning. I studied and majored in foriegn lanuages during my time in university and I wanted a way to combine that passion with software development. Along with human languages, I wanted to expand my knowledge of programming lanuages that we only had a brief glance at during this last section of the bootcamp. One of those languages that seemed appealing was Python, Django specifically. So I decided to build a blog app with Django. The setup and design is so far fairly simple, mostly because of the time constraints of the deadline and reading through the documentation in order to get an idea of what needs to be mapped out before I can start writing in the template language. The functionality of this website is a blog about fashion with a focus on Japanese-Americana reproduction brands. This is also something that I would consider a hobby of mine so it was fairly easy to setup the data for these posts.
